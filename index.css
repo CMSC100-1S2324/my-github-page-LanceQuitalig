@@ -23,8 +23,6 @@ a:visited {
     align-items: center;
 
     width: 60%;
-
-    background-color: black;
 }
 
 .nav-flex {
@@ -34,19 +32,15 @@ a:visited {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-
-    background-color: cyan;
 }
 
 .projects-flex {
     display: flex;
     flex-direction: row;
     
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 60%;
-
-    background-color: red;
+    width: 90%;
 }
 
 .skills-bio-flex {
@@ -76,7 +70,14 @@ a:visited {
 }
 
 .projects-flex-item h1 {
+    border: 3px solid #dd73b5;
+    background-color: #dd73b5;
+    color: #10116b;
+    border-radius: 20px;
     text-align: center;
+
+    height: 100%;
+    vertical-align: middle;
 }
 
 .photo {
