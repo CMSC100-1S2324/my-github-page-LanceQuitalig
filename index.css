@@ -48,9 +48,6 @@ a:visited {
 }
 
 .footer-flex {
-    display: flex;
-    flex-direction: column;
-
     width: 40%;
 
     padding: 10px;
@@ -104,10 +101,6 @@ a:visited {
 
 .skills-bio-item {
     flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
     text-align: center;
 

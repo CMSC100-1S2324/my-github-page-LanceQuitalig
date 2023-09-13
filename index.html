@@ -6,14 +6,17 @@
     </head>
         
     <body>
+        <!-- main div component encompassing the site -->
         <div class="main-flex"> 
             <div class="main-flex-item" id="nav">
+                <!-- navigation bar component including the logo and the buttons -->
                 <div class="navigation-flex">
-
                     <div class="logo" id="logo">
                         <a href="#footer-content"> <img src="./logo.png"> </a>
                     </div> 
 
+                    <!-- separate flex component to make the inside components horizontal -->
+                    <!-- *clickable buttons of Home Picture Projects Biography About -->
                     <div class="nav-flex"> 
                         <div class="nav-flex-item" id="site-home">
                             <a href="#logo"> <h1> Home </h1> </a>
@@ -38,13 +41,19 @@
                 </div>
             </div>
                 
+            <!-- div component to center the photo -->
             <div class="main-flex-item" id="featured-photo">
+                <!-- photo has included funny hover effect from leftover CMSC 161 asset-->
                 <img class="photo" onmouseover="this.src='./photo-hover.png'" onmouseout="this.src='./photo.jpg'" src="./photo.jpg"/> 
             </div>
 
+            <!-- div component for the projects section -->
             <div class="main-flex-item" id="projects"> 
+                <!-- separate flex component to make the inside components horizontal -->
                 <div class="projects-flex">
                     <div class="projects-flex-item">
+                        <!-- CMSC 161 project from last semester -->
+                        <!-- *clickable component leading to running Github Pages site for my project -->
                         <a href="https://LanceQuitalig.github.io/CMSC161"> 
                             <h1 onmouseover="this.innerHTML='<br /> Solo final project for the course using the gl-matrix library.'" 
                             onmouseout="this.innerHTML='<br /> *The Bocchi Cube - CMSC 161'"> 
@@ -54,13 +63,15 @@
                     </div>
 
                     <div class="projects-flex-item">
-                        <h1 onmouseover="this.innerHTML='<br /> Final output as required by the company I was with.'"
+                        <!-- CMSC 198 output from last midyear -->
+                        <h1 onmouseover="this.innerHTML='<br /> Solo final output as required by the company I was with.'"
                         onmouseout="this.innerHTML='<br /> Customer Service Chatbot - CMSC 198'">
                             <br /> Customer Service Chatbot - CMSC 198 
                         </h1>
                     </div>
 
                     <div class="projects-flex-item">
+                        <!-- CMSC 150 project from 1S1920 -->
                         <h1 onmouseover="this.innerHTML='<br /> Solo final project of the course; was my second time coding a project.'"
                         onmouseout="this.innerHTML='<br /> RShiny Interpolation Calculator - CMSC 150'"> 
                             <br /> RShiny Interpolation Calculator - CMSC 150 
@@ -68,6 +79,7 @@
                     </div>
 
                     <div class="projects-flex-item">
+                        <!-- CMSC 124 project from COVID -->
                         <h1 onmouseover="this.innerHTML='<br /> Solo final project of the course; finished over the span of 6 months during COVID'"
                         onmouseout="this.innerHTML='<br /> LoLCode interpreter - CMSC 124 '"> 
                             <br /> LoLCode interpreter - CMSC 124 
@@ -76,7 +88,9 @@
                 </div>
             </div>
 
+            <!-- div component for the skills and biography section -->
             <div class="main-flex-item" id="skills-bio">
+                <!-- separate div component to make the skills and biography section horizontal -->
                 <div class="skills-bio-flex">
                     <div class="skills-bio-item" id="skills">
                         <br />
@@ -99,7 +113,9 @@
                 </div>
             </div>
 
+            <!-- div component for the footer section -->
             <div class="main-flex-item" id="footer">
+                <!-- same photo as above with funny effect but smaller -->
                 <img class="footer-photo" onmouseover="this.src='./photo-hover.png'" onmouseout="this.src='./photo.jpg'" src="./photo.jpg"/> 
                 <div class="footer-flex" id="footer-content">
                     <h3> 
