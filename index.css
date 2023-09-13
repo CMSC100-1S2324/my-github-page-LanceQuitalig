@@ -21,6 +21,10 @@ a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 60%;
+
+    background-color: black;
 }
 
 .nav-flex {
@@ -29,13 +33,20 @@ a:visited {
 
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
+
+    background-color: cyan;
 }
 
 .projects-flex {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+
+    background-color: red;
 }
 
 .skills-bio-flex {
@@ -51,7 +62,6 @@ a:visited {
 
 .nav-flex-item {
     flex: 1;
-    justify-content: center;
 }
 
 .nav-flex-item h1 {
@@ -61,20 +71,21 @@ a:visited {
     text-align: center;
 }
 
-.main-flex-item {
+.projects-flex-item {
     flex: 1;
-    justify-content: center;
 }
 
-.photo-flex {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: center;
+.projects-flex-item h1 {
+    text-align: center;
 }
 
 .photo {
     width: 100%;
     max-width: 300px;
     height: 380px;
+}
+
+.main-flex-item {
+    display: flex;
+    justify-content: center;
 }
