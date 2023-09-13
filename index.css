@@ -49,7 +49,10 @@ a:visited {
 
 .footer-flex {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+
+    background-color: black;
+    width: 40%;
 }
 
 .nav-flex-item {
@@ -83,10 +86,13 @@ a:visited {
     width: 100%;
     max-width: 300px;
     height: 380px;
+
+    border-radius: 20px;
 }
 
 .main-flex-item {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -98,4 +104,11 @@ a:visited {
     justify-content: center;
 
     text-align: center;
+}
+
+.footer-photo {
+    width: 100%;
+    max-width: 200px;
+    height: 250px;
+    border-radius: 20px;
 }
