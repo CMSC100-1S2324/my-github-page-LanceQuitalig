@@ -22,18 +22,18 @@ a:visited {
 .nav-flex {
     display: flex;
     flex-direction: row;
-
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+
     width: 100%;
 }
 
 .projects-flex {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;    
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     width: 70%;
 }
 
@@ -41,19 +41,16 @@ a:visited {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     justify-content: space-evenly;
 
     width: 80%;
 }
 
 .footer-flex {
-    width: 40%;
-
-    padding: 10px;
-
-    position: relative;
     left: 30px;
+    width: 40%;
+    padding: 10px;
+    position: relative;
 
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
@@ -64,8 +61,9 @@ a:visited {
 
 .nav-flex-item h1 {
     background-color: #62527a;
-    color: #edcfc4;
     border-radius: 20px;
+
+    color: #edcfc4;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -76,19 +74,18 @@ a:visited {
 
 .projects-flex-item h1 {
     background-color: #92B9BD;
-    color: #605043;
     border-radius: 20px;
-    text-align: center;
-
     height: 100%;
+
+    color: #605043;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .photo {
     width: 100%;
-    max-width: 300px;
     height: 380px;
-
+    max-width: 300px;
     border-radius: 20px;
 }
 
@@ -96,20 +93,18 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .skills-bio-item {
     flex: 1;
 
     text-align: center;
-
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .footer-photo {
     width: 100%;
-    max-width: 200px;
     height: 250px;
+    max-width: 200px;
     border-radius: 20px;
 }
